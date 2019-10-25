@@ -1,5 +1,7 @@
 {
   "name": "cryptoorange-ionic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
