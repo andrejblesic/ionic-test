@@ -13,6 +13,7 @@ export class Tab2Page implements OnInit {
   chartWidth: number;
 
   renderChart() {
+    console.log('benes');
     const chart = createChart(document.getElementById('test'), { width: this.chartWidth - 5, height: 300 });
     const lineSeries = chart.addLineSeries();
     lineSeries.setData([
